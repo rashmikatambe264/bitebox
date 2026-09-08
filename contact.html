@@ -15,6 +15,105 @@
 <a href="about.html">About</a>
 <a href="contact.html">Contact</a>
 </p>
-    
+
+<hr>
+ 
+<h2>Customer Registration & Order Form</h2>
+
+
+ <form>
+   <h3>Customer Information</h3>
+   <label for="Fullname">Full Name</label>
+<br>
+   <input type="text" id="Fullname" name="Fullname">
+<br><br>
+ 
+<label for="email">Email Address</label>
+<br>
+<input type="email" id="email" name="email">
+<br><br>
+
+<label for="password">Password</label>
+<br>
+<input type="password" id="password" name="password">
+<br><br>
+
+<label for="phone">Phone Number</label>
+<br>
+<input type="tel" id="phone" name="phone">
+<br><br>
+
+
+<h3>Order Information</h3>
+<label for="quantity">Quantity</label>
+
+<br>
+
+<input type="number" id="quantity" name="quantity">
+<br><br>
+
+<label for="DeliveryDate">Preferred Delivery Date</label>
+<br>
+<input type="date" id="DeliveryDate" name="DeliveryDate">
+<br><br>
+
+
+<label for="food">Select Food Item</label>
+<br>
+<select id="food" name="food">
+    <option>Veg Pizza</option>
+    <option>Cheese Burger</option>
+    <option>White Sauce Pasta</option>
+    <option>Veg Grilled Sandwich</option>
+    <option>Chocolate Brownie</option>
+</select>
+<br><br>
+
+
+<h3>Payment Method</h3>
+<input type="radio" id="cash" name="Payment">
+<label for="cash">Cash</label>
+<br>
+
+<input type="radio" id="card" name="Payment">
+<label for="card">Card</label>
+<br>
+
+<input type="radio" id="upi" name="Payment">
+<label for="upi">UPI</label>
+<br><br>
+
+
+
+<h3>Extras</h3>
+<input type="checkbox" id="cheese" name="Extras">
+<label for="cheese">Extra Cheese</label>
+<br>
+
+<input type="checkbox" id="drink" name="Extra">
+<label for="drink">Cold Drink</label>
+<br>
+
+<input type="checkbox" id="Dessert" name="Extras">
+<label for="Dessert">Dessert</label>
+<br>
+
+
+
+<h3>Delivery Instructions</h3>
+<label for="address">Delivery Address</label>
+<br>
+
+<textarea id="address" name="address" rows="5" cols="40">
+</textarea>
+<br><br>
+
+<input type="submit" value="Place Order">
+<input type="reset" value="Clear Form">
+
+
+ </form>  
+ 
+ 
 </body>
 </html>
